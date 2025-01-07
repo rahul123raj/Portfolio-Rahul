@@ -176,7 +176,7 @@ body {
   align-items: center;
   margin-top: 50px;
   scroll-margin-top: 120px;
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .projects .card {
@@ -191,62 +191,60 @@ body {
   box-shadow: 0 0 10px 4px #43c6ac;
 }
 
-.projects .tech{
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 10px;
+.projects .tech {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
 }
 
-.projects span{
-    padding: 3px 6px;
-    border-radius: 25%;
-    border: none;
-    color: #333333;
-    font-style: oblique;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:#b3e5fc;
-    margin-left: 20px;
+.projects span {
+  padding: 3px 6px;
+  border-radius: 25%;
+  border: none;
+  color: #333333;
+  font-style: oblique;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #b3e5fc;
+  margin-left: 20px;
 }
 
-.projects .btns{
-    width: 70%;
-    /* background-color: yellowgreen; */
-    margin: 15px auto;
-    display: flex;
-    justify-content: space-evenly;
+.projects .btns {
+  width: 70%;
+  /* background-color: yellowgreen; */
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.projects button{
-    padding: 3px 6px;
-    width: 100px;
-    border-radius: 20px;
-    background-color: skyblue;
-    border: 1px solid rgb(81, 198, 245);
-    box-shadow: 0 0 10px 2px #191654;
+.projects button:hover {
+  filter: brightness(0.8);
 }
 
-.projects button:hover{
-    filter: brightness(.8);
-}
-
-.projects a{
-    color: black;
+.projects a {
+  color: black;
+  padding: 3px 6px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: skyblue;
+  border: 1px solid rgb(81, 198, 245);
+  box-shadow: 0 0 10px 2px #191654;
+  text-align: center;
 }
 
 .projects .desc {
   width: 60%;
 }
 
-.projects h2{
-font-weight: bold;
-text-decoration: underline;
+.projects h2 {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-.projects ul{
-    color: black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
-
+.projects ul {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
 }
 
 .projects .img {
@@ -258,7 +256,6 @@ text-decoration: underline;
   width: 100%;
   height: 100%;
   border-radius: 15px;
-
 }
 
 .skill {
@@ -292,7 +289,13 @@ text-decoration: underline;
   margin: 20px 30px;
 }
 
-.fa-database,.fa-envira,.fa-node,.fa-react,.fa-js,.fa-css3-alt,.fa-html5,
+.fa-database,
+.fa-envira,
+.fa-node,
+.fa-react,
+.fa-js,
+.fa-css3-alt,
+.fa-html5,
 #ex {
   transform: scale(3);
   padding: 4px 7px;
